@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding:0;
+
+
+}
+
+/* header */
+.cabecalho {
+    width:100%;
+    background-color:#000000;
+    height: 3,625rem;
+    display:flex; 
+    justify-content:space-between;
+} 
+
+.cabecalho_menu {
+    display: flex;
+   gap: 2.5em;
+   color:#FFFFFF;
+   font-size: 1em;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   align-items: center;
+   list-style: none;
+   margin: 13px 0px 13px 23px;
+}
+
+.meteora {
+    width: 8.296875em;
+    height:2em;
+    
+}
+
+.icone {
+    display: none;
+}
+
+.navegacao {
+  display:flex;
+  align-items: center;
+  gap:16px;
+  margin-inline-end: 1.5625em;
+  
+ 
+}
+
+
+ .input {
+    width: 10.625em;
+    height:  2.375em;
+    color: #6C757D;
+    border: 1px solid #CED4DA;
+}
+
+.botao {
+    width:5em;
+    height: 2.375em;
+    background-color: #000000;
+    color:#FFFFFF;
+    border:1px #FFFFFF solid ;
+}  
+
+/* imagem */
+
+.banner {
+    width: 100%;
+    height: 415px;
+}
+
+/* BUSQUE CATEGORIA */
+
+.texto_categoria {
+    height:39px;
+    font-size: 32px;
+    color: #212529;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 45px ;
+    font-weight: 500;
+    
+
+}
+
+.busque {
+    display: flex;
+    justify-content: center;
+}
+
+.busque-categoria {
+    display: flex;
+   gap: 32px;
+   width:80%;
+}
+
+
+.texto_categoria_item {
+    width: 160px;
+    height: 35px;
+    font-size:16px;
+    background-color: #000000;
+    color:#FFFFFF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* produtos bombando  */
+
+.produtos{
+    margin: 72px;
+
+}
+
+.produto_imagem{
+    border-radius: 50%;
+}
+
+.produto_texto {
+    color: #212529;
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    justify-content: center;
+    padding:30px;
+    height:39px;
+   font-weight: 500;
+}
+
+.produtos_bombando_filho {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.produtos_bombando_filho section {
+    width:30%;
+}
+
+.produtos_bombando_paragrfs {
+    border:1px dashed #cccccc;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding:35px;
+    height:110px;
+}
+
+.produto_texto_paragrf1 {
+    color: #212529;
+    font-size: 16px;
+    width:149px;
+    height:23px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.produto_texto_paragrf2 {
+    color: #212529;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.produto_texto_preço {
+    color: #212529;
+    font-size: 16px;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.produtos_botao {
+    background-color: #9353FF;
+    color:#FFFFFF;
+    width: 102px;
+    height:37px;
+    font-size: 16px;
+    font-weight:500;
+    Padding :9px, 16px, 9px, 16px;
+    border: #9353FF;
+
+}
+
+
+/* facilidades */
+
+.facilidades {
+    background-color: #000000;
+    color: #DAFF01;
+    height:238px;
+    margin:40px 0px 40px 0px ;
+    padding:12px;
+
+}
+
+.facilidades div   {
+    display: flex;
+    justify-content: center;
+    color:#FFFFFF;
+    margin :40px ;
+    
+}
+
+.facilidades_pai {
+    display:flex;
+    justify-content: center;
+}
+
+.facilidades_filho {
+    display:flex;
+    gap:90px;
+}
+
+.facilidades_filho section {
+    display:flex;
+    flex-wrap: wrap;
+    gap:24px;
+}
+
+.facilidades_filho img {
+   width: 72px;
+   height:72px;
+}
+
+.strong {
+    color:#FFFFFF;
+}
+
+/* cadastro */
+
+.cadastro  {
+    border: 2px solid #000000;
+    width:600px;
+    height:140px;
+    /* padding:40px; */
+    margin:65px 0px 65px 350px;
+}
+
+.cadastro section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:24px;
+}
+
+.cadastro_texto {
+    font-size:20px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #212529;
+    margin-top: 25px;
+}
+
+.cadastro form input {
+    width:350px;
+    height:25px;
+}
+
+.cadastro form button {
+    background-color: #9353FF;
+    color:#FFFFFF;
+    width: 55px;
+    height:26px;
+    font-size: 12px;
+    font-weight: 500;
+    border:1px solid;
+}
+
+/* rodape */
+
+.rodape {
+    background-color: #000000;
+    color:#FFFFFF;
+    
+}
+
+.rodape_texto {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+}
+
+/* Tabletes responsivo */
+@media (max-width:768px)  {
+   
+    /* header */
+    .cabecalho {
+      gap:60px;
+    }
+
+    .cabecalho_menu {
+        font-size:13px;
+        gap: 20px;
+        margin: 18px 0px 16px 23px;
+        flex-wrap: nowrap;
+        
+    }
+
+    .links{
+        white-space: nowrap;
+    }
+
+    .meteora {
+        width:99.56px;
+        height:24px;
+    }
+
+    .navegacao {
+        width:100%;
+    }
+    
+    .input {
+        width:145px;     
+    }
+
+    .botao {
+        width: 67px;
+        height: 38px;
+    }
+
+    /*Busque categoria */
+
+    .texto_categoria{
+        height: 3px;
+        padding:20px;
+        font-size: 28px;
+    }
+
+    .busque-categoria {
+        margin:40px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+    /* produtos bombando */
+
+    .produtos {
+        margin: 15px;
+    }
+    
+    .produto_imagem {
+    width:300px;
+    height: 389px;
+    }
+
+    .produto_texto {
+        font-size:18px;
+    }
+
+    .produtos_bombando_filho section {
+        width:47%;
+    }
+
+    /* facilidades */
+
+    .facilidades {
+        height:100%;
+    }
+
+    .facilidades_filho {
+        flex-direction: column;
+    }
+
+}
+
+/* celularse reposivos */
+@media (max-width:375px) {
+    .cabecalho {
+        flex-direction: column;
+    }
+
+    .cabecalho_menu {
+       padding:15px;
+    }
+
+    .imagem {
+        display: flex;
+        gap:200px;
+        align-items: center; 
+    }
+
+    .icone {
+        display: flex;
+        width:18px;
+        height: 13.5px;
+    }
+
+    .links {
+        display: none;
+    }
+    .navegacao {
+        background-color: #FFFFFF;
+        margin-right:25px;
+        padding:30px;
+
+    }
+
+    .input {
+        border: 1px solid #000000;
+        font-size:13px;
+        width:225px;
+        height: 38px;
+    }
+
+    .botao {
+        background-color: #FFFFFF;
+        color :#000000;
+        border:1px #000000 solid ;
+        width: 88px;
+        height: 37px;
+
+    }
+
+    /* Busque categoria */
+
+    .busque{
+        flex-direction: column;
+    }
+
+    .busque-categoria {
+    
+    }
+
+}
