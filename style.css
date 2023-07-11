@@ -62,9 +62,42 @@
 
 /* imagem */
 
-.banner {
-    width: 100%;
-    height: 415px;
+.carrosel {
+   display: flex;
+   overflow: hidden;
+   width:100%;
+   height: 415px;
+   position: relative;
+}
+
+.carrosel_imagens {
+    /* display: none; */
+    transition: transform 0.3s ease-in-out;
+}
+
+.primeira {
+  width: 100%;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 8px;
+  font-size: 16px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 8px;
+}
+
+.next-btn {
+  right: 8px;
 }
 
 /* BUSQUE CATEGORIA */
